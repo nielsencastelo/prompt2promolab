@@ -1,0 +1,70 @@
+{
+  "slug": "nazaapp_45s",
+  "title": "NazaApp — Reel 45s",
+  "clip_seconds": 5,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "seconds": 5,
+      "prompt": "A church secretary overwhelmed with paper notes, spreadsheets and phone messages, realistic office scene inside a church administration room, subtle handheld camera, natural morning light, modern promotional style, feeling of disorganization before digital transformation",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Sua igreja ainda organiza tudo no improviso?"
+    },
+    {
+      "scene_id": 2,
+      "seconds": 5,
+      "prompt": "A clean laptop dashboard and smartphone showing a church management app in use, secretary smiling while organizing members, events and communication, smooth gimbal camera, bright and tidy church office, warm trustworthy light, realistic SaaS promo look",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Centralize membros, agenda e comunicação"
+    },
+    {
+      "scene_id": 3,
+      "seconds": 5,
+      "prompt": "Pastor and church team checking notifications and schedule on phone and computer, modern church lobby, gentle push-in camera movement, sunset warm light, uplifting and hopeful mood, final promotional shot ready for call to action",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Conheça a NazaApp"
+    },
+    {
+      "scene_id": 4,
+      "seconds": 5,
+      "prompt": "A ministry leader managing groups and attendance on a phone app after a church meeting, realistic interaction, soft side camera movement, warm evening indoor light, clear community energy",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Ministérios e grupos mais organizados"
+    },
+    {
+      "scene_id": 5,
+      "seconds": 5,
+      "prompt": "Church member receiving a push notification on a smartphone about a service and event schedule, close-up on the phone and happy reaction, modern cinematic commercial framing, clean natural light",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Comunicados e avisos em tempo real"
+    },
+    {
+      "scene_id": 6,
+      "seconds": 5,
+      "prompt": "A calm final shot of a church leadership team using web and mobile together, smiling, organized, confident, cinematic promo style, subtle logo-ready frame, warm inspiring light, direct closing call to action",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Peça uma demonstração"
+    },
+    {
+      "scene_id": 7,
+      "seconds": 5,
+      "prompt": "A children's check-in desk at a church, organized token-based process, parent and volunteer interacting safely, realistic commercial video scene, bright clean family-friendly environment",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Mais segurança no módulo infantil"
+    },
+    {
+      "scene_id": 8,
+      "seconds": 5,
+      "prompt": "A church financial dashboard open on a laptop with a leader reviewing categories and reports, realistic office environment, smooth camera slide, clean light, transparent professional management feel",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Mais controle financeiro e relatórios"
+    },
+    {
+      "scene_id": 9,
+      "seconds": 5,
+      "prompt": "Final institutional-style hero shot with pastor, leaders and members connected by mobile and web technology, welcoming church building in background, cinematic closing frame, hopeful and inspiring mood, polished promotional finish",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Modernize a gestão da sua igreja"
+    }
+  ]
+}

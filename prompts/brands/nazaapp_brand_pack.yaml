@@ -1,0 +1,30 @@
+brand_name: NazaApp
+brand_site: https://nazaap.com/
+positioning: Plataforma web e mobile para gestão de igrejas
+core_message: Organize ministérios, comunicação, agenda, membros e financeiro em um
+  ecossistema integrado.
+audiences:
+- pastores
+- secretaria da igreja
+- líderes de ministério
+- igrejas em crescimento
+channels:
+- instagram
+- facebook
+- youtube shorts
+- institucional
+visual_style:
+  look: clean, modern, trustworthy, community-centered
+  camera: smooth handheld or light gimbal motion
+  lighting: warm natural light and clean office lighting
+  colors_hint: use the app and church environment as the main visual anchors
+must_show:
+- mobile app in use
+- web dashboard on laptop or desktop
+- church administration context
+- clear CTA at the end
+cta_options:
+- Conheça a plataforma
+- Peça uma demonstração
+- Fale com a equipe
+- Modernize a gestão da sua igreja

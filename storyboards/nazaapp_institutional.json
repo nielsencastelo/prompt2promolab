@@ -1,0 +1,91 @@
+{
+  "slug": "nazaapp_institutional",
+  "title": "NazaApp — Institutional",
+  "clip_seconds": 5,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "seconds": 5,
+      "prompt": "Church routine before digital organization, papers, messages and manual processes in a real church office, documentary style opening, natural light, emotional but professional tone",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Muitas igrejas ainda vivem na correria do controle manual"
+    },
+    {
+      "scene_id": 2,
+      "seconds": 5,
+      "prompt": "A clean transition to a modern church dashboard on desktop, realistic SaaS interface feeling, slow cinematic camera movement, bright office environment",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "A NazaApp centraliza a gestão em um só lugar"
+    },
+    {
+      "scene_id": 3,
+      "seconds": 5,
+      "prompt": "Pastor reviewing members and schedules on a laptop in a peaceful office, professional and trustworthy commercial look",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Membros, agenda e ministérios organizados"
+    },
+    {
+      "scene_id": 4,
+      "seconds": 5,
+      "prompt": "Secretary using web platform to publish notices and church bulletins, smooth over-shoulder camera, clear and productive scene",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Comunicação mais ágil com a comunidade"
+    },
+    {
+      "scene_id": 5,
+      "seconds": 5,
+      "prompt": "Member opening a mobile app with church content, notifications and event information, realistic smartphone close-up",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "App mobile para Android e iPhone"
+    },
+    {
+      "scene_id": 6,
+      "seconds": 5,
+      "prompt": "Ministry team planning service schedules together with technology support, church meeting room, collaborative mood",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Mais organização para líderes e equipes"
+    },
+    {
+      "scene_id": 7,
+      "seconds": 5,
+      "prompt": "Children ministry check-in moment, safe and professional process, parents confident, soft bright family-friendly light",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Mais segurança no recebimento das crianças"
+    },
+    {
+      "scene_id": 8,
+      "seconds": 5,
+      "prompt": "Financial management scene with dashboard, reports and reconciliations, transparent administration atmosphere",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Gestão financeira com mais controle"
+    },
+    {
+      "scene_id": 9,
+      "seconds": 5,
+      "prompt": "Church event planning on a digital calendar, volunteers and leaders aligned, smooth camera movement, optimistic energy",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Agenda e programação com menos falhas"
+    },
+    {
+      "scene_id": 10,
+      "seconds": 5,
+      "prompt": "Community receiving push notifications and digital communication, fast modern connected experience",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "A informação chega com rapidez"
+    },
+    {
+      "scene_id": 11,
+      "seconds": 5,
+      "prompt": "Report generation and PDF export scene on a desktop, organized documents and leadership review",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Relatórios para decisões mais seguras"
+    },
+    {
+      "scene_id": 12,
+      "seconds": 5,
+      "prompt": "Final brand scene with leadership and members in a welcoming church space, mobile and web together, cinematic institutional closing, hopeful sunlight",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "NazaApp — gestão inteligente para igrejas"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "nazaapp_15s",
+  "title": "NazaApp — Reel 15s",
+  "clip_seconds": 5,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "seconds": 5,
+      "prompt": "A church secretary overwhelmed with paper notes, spreadsheets and phone messages, realistic office scene inside a church administration room, subtle handheld camera, natural morning light, modern promotional style, feeling of disorganization before digital transformation",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Sua igreja ainda organiza tudo no improviso?"
+    },
+    {
+      "scene_id": 2,
+      "seconds": 5,
+      "prompt": "A clean laptop dashboard and smartphone showing a church management app in use, secretary smiling while organizing members, events and communication, smooth gimbal camera, bright and tidy church office, warm trustworthy light, realistic SaaS promo look",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Centralize membros, agenda e comunicação"
+    },
+    {
+      "scene_id": 3,
+      "seconds": 5,
+      "prompt": "Pastor and church team checking notifications and schedule on phone and computer, modern church lobby, gentle push-in camera movement, sunset warm light, uplifting and hopeful mood, final promotional shot ready for call to action",
+      "negative_prompt": "blurry, low quality, extra fingers, deformed face, duplicated body, bad anatomy, warped text, unreadable UI, flicker, jitter, distorted phone screen",
+      "overlay_text": "Conheça a NazaApp"
+    }
+  ]
+}
