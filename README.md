@@ -9,7 +9,7 @@ This project is designed for:
 - Campaigns for **Instagram**, **Facebook**, and quick presentations
 - A practical workflow for small businesses, churches, solo professionals, and teams with limited budgets
 
-## Recommended Repository Name
+## Repository
 
 **prompt2promolab**
 
