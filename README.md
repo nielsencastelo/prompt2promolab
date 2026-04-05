@@ -1,64 +1,64 @@
 
 # Prompt2PromoLab
 
-Gere vídeos curtos e institucionais a partir de prompts, com foco em **marketing de baixo custo** e **modelos open-source que conseguem rodar em GPUs mais acessíveis**.
+Generate short-form and institutional videos from prompts, with a focus on **low-cost marketing** and **open-source models that can run on more accessible GPUs**.
 
-O projeto foi pensado para:
-- Reels e vídeos curtos de **15s, 30s e 45s**
-- Vídeos institucionais mais longos
-- Campanhas para **Instagram**, **Facebook** e apresentações rápidas
-- Fluxo prático para pequenos negócios, igrejas, autônomos e equipes com orçamento limitado
+This project is designed for:
+- **15s, 30s, and 45s** reels and short videos
+- Longer institutional videos
+- Campaigns for **Instagram**, **Facebook**, and quick presentations
+- A practical workflow for small businesses, churches, solo professionals, and teams with limited budgets
 
-## Nome recomendado do repositório
+## Recommended Repository Name
 
 **prompt2promolab**
 
-Por que este nome?
-- comunica claramente o fluxo `prompt -> promo`
-- segue um padrão parecido com nomes comuns no ecossistema (`LTX-Video`, `Gen V`, `Text-To-Video-AI`, `viral2viral`)
-- é mais específico para uso de marketing e divulgação do que nomes genéricos de T2V
+Why this name?
+- It clearly communicates the `prompt -> promo` workflow
+- It follows a naming pattern similar to common ecosystem names (`LTX-Video`, `Gen V`, `Text-To-Video-AI`, `viral2viral`)
+- It is more specific for marketing and promotional use than generic T2V names
 
-Alternativas:
+Alternatives:
 - `pocket-promo-video`
 - `lowcost-video-lab`
 - `nano-promo-video`
 
-## Estratégia do projeto
+## Project Strategy
 
-Gerar vídeos longos diretamente em um único passe ainda é pesado e menos previsível em hardware modesto.
-Por isso, este repositório adota a estratégia mais segura:
+Generating long videos directly in a single pass is still demanding and less predictable on modest hardware.
+Because of that, this repository adopts a safer strategy:
 
-1. transformar a ideia em **storyboard**
-2. gerar **clips curtos por cena** (ex.: 5 segundos)
-3. concatenar os clips com `ffmpeg`
-4. adicionar legendas, CTA e variações por canal
+1. Turn the idea into a **storyboard**
+2. Generate **short clips per scene** (for example, 5 seconds each)
+3. Concatenate the clips with `ffmpeg`
+4. Add subtitles, CTA, and channel-specific variations
 
-Esse fluxo é melhor para:
-- reduzir custo computacional
-- reaproveitar cenas
-- testar diferentes prompts
-- criar múltiplas versões do mesmo anúncio
+This workflow is better for:
+- reducing compute cost
+- reusing scenes
+- testing different prompts
+- creating multiple versions of the same ad
 
-## Modelos sugeridos
+## Suggested Models
 
-### Perfil 1 — GPU menor / custo mais baixo
-**CogVideoX-2B quantizado**
-- melhor ponto de partida
-- adequado para testes locais e GPUs menores
-- bom para prototipar campanhas
+### Profile 1 - Smaller GPU / lower cost
+**Quantized CogVideoX-2B**
+- best starting point
+- suitable for local testing and smaller GPUs
+- good for campaign prototyping
 
-### Perfil 2 — equilíbrio entre velocidade e qualidade
+### Profile 2 - Balanced speed and quality
 **LTX-Video**
-- mais rápido
-- boa escolha para produção iterativa
-- útil para gerar várias versões da mesma peça
+- faster
+- a good choice for iterative production
+- useful for generating multiple versions of the same creative
 
-### Perfil 3 — qualidade mais alta em GPU melhor
+### Profile 3 - Higher quality on stronger GPUs
 **HunyuanVideo-1.5**
-- melhor quando você tiver mais VRAM
-- indicado para peças institucionais e cenas mais refinadas
+- better when you have more VRAM
+- recommended for institutional content and more refined scenes
 
-## Estrutura do repositório
+## Repository Structure
 
 ```text
 prompt2promolab/
@@ -100,9 +100,9 @@ prompt2promolab/
 └── .gitignore
 ```
 
-## Instalação
+## Installation
 
-### 1) Python e ambiente
+### 1) Python and environment
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
@@ -112,92 +112,91 @@ pip install -r requirements.txt
 ```
 
 ### 2) FFmpeg
-Instale o `ffmpeg` no sistema e garanta que ele esteja no PATH.
+Install `ffmpeg` on your system and make sure it is available in your PATH.
 
-No Ubuntu:
+On Ubuntu:
 ```bash
 sudo apt-get update
 sudo apt-get install -y ffmpeg
 ```
 
-No Windows:
-- instalar via `winget`, `choco` ou binário oficial
-- conferir com `ffmpeg -version`
+On Windows:
+- install via `winget`, `choco`, or the official binary
+- verify with `ffmpeg -version`
 
-## Uso rápido
+## Quick Start
 
 ### Smoke test
-Abra:
+Open:
 - `notebooks/01_model_selector_and_smoke_test.ipynb`
 
-### Geração de reels
-Abra:
+### Reel generation
+Open:
 - `notebooks/02_generate_reel_15s.ipynb`
 - `notebooks/03_generate_reel_30s.ipynb`
 - `notebooks/04_generate_reel_45s.ipynb`
 
-### Vídeo institucional
-Abra:
+### Institutional video
+Open:
 - `notebooks/05_generate_institutional_long_video.ipynb`
 
-### Laboratório de prompts NazaApp
-Abra:
+### NazaApp prompt lab
+Open:
 - `notebooks/06_prompt_lab_nazaapp.ipynb`
 
-## Perfis de geração recomendados
+## Recommended Generation Profiles
 
-### Reels de 15s
-- 3 cenas de 5s
+### 15s reels
+- 3 scenes of 5 seconds each
 - 16 fps
-- foco em hook + benefício + CTA
+- focus on hook + benefit + CTA
 
-### Reels de 30s
-- 6 cenas de 5s
-- narrativa curta com problema -> solução -> prova -> CTA
+### 30s reels
+- 6 scenes of 5 seconds each
+- short narrative with problem -> solution -> proof -> CTA
 
-### Reels de 45s
-- 9 cenas de 5s
-- mais espaço para mostrar módulos e contexto real de uso
+### 45s reels
+- 9 scenes of 5 seconds each
+- more room to show modules and real usage context
 
-### Institucional longo
-- montar de 12 a 24 cenas de 5s
-- incluir variações de:
+### Long institutional format
+- assemble 12 to 24 scenes of 5 seconds each
+- include variations of:
   - web
   - mobile
-  - equipe
-  - operação diária
-  - impacto e depoimento
-  - encerramento institucional
+  - team
+  - daily operation
+  - impact and testimonial
+  - institutional closing
 
-## Dicas de marketing para pequenos negócios
+## Marketing Tips for Small Businesses
 
-- use cenas simples, bem iluminadas e com uma ação por take
-- evite prompts muito longos
-- gere várias versões curtas em vez de uma peça só
-- priorize CTA claro nos últimos 3 a 5 segundos
-- mantenha identidade visual consistente por campanha
+- use simple, well-lit scenes with one action per shot
+- avoid overly long prompts
+- generate several short variations instead of a single piece
+- prioritize a clear CTA in the last 3 to 5 seconds
+- keep visual identity consistent across the campaign
 
-## Saídas esperadas
+## Expected Outputs
 
-Os notebooks geram:
-- clips individuais `.mp4`
-- lista de concatenação
-- vídeo final consolidado
-- JSON de storyboard usado na renderização
+The notebooks generate:
+- individual `.mp4` clips
+- a concatenation list
+- a final merged video
+- the storyboard JSON used for rendering
 
-## Observações práticas
+## Practical Notes
 
-- em hardware modesto, a melhor estratégia costuma ser reduzir:
-  - resolução
-  - número de frames
-  - número de passos
-- para campanhas reais, gere 3 a 10 variações da mesma peça mudando:
-  - abertura
+- on modest hardware, the best strategy is usually to reduce:
+  - resolution
+  - number of frames
+  - number of steps
+- for real campaigns, generate 3 to 10 variations of the same asset by changing:
+  - opening
   - CTA
-  - enquadramento
-  - texto da cena
+  - framing
+  - scene text
 
-## Licença
+## License
 
-Escolha a licença que fizer mais sentido para seu uso. Este template acompanha uma licença MIT por simplicidade.
-
+Choose the license that makes the most sense for your use case. This template includes an MIT license for simplicity.
