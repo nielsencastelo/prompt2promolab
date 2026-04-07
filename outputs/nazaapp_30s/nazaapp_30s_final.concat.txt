@@ -1,0 +1,6 @@
+file 'D:/Projetos/prompt2promolab/outputs/nazaapp_30s/scene_01.mp4'
+file 'D:/Projetos/prompt2promolab/outputs/nazaapp_30s/scene_02.mp4'
+file 'D:/Projetos/prompt2promolab/outputs/nazaapp_30s/scene_03.mp4'
+file 'D:/Projetos/prompt2promolab/outputs/nazaapp_30s/scene_04.mp4'
+file 'D:/Projetos/prompt2promolab/outputs/nazaapp_30s/scene_05.mp4'
+file 'D:/Projetos/prompt2promolab/outputs/nazaapp_30s/scene_06.mp4'
