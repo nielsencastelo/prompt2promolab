@@ -29,7 +29,10 @@ def concat_videos(video_paths: Iterable[Path], output_path: Path, overwrite: boo
         "-f", "concat",
         "-safe", "0",
         "-i", str(concat_file),
-        "-c", "copy",
+        "-an",
+        "-c:v", "libx264",
+        "-pix_fmt", "yuv420p",
+        "-movflags", "+faststart",
         str(output_path),
     ]
     subprocess.run(cmd, check=True)

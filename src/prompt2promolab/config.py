@@ -16,6 +16,7 @@ class ModelProfile:
     default_width: int
     default_fps: int
     default_num_frames: int
+    max_num_frames: int | None
     recommended_steps: int
     guidance_scale: float
     notes: str
@@ -31,7 +32,8 @@ MODEL_REGISTRY = {
         default_height=480,
         default_width=720,
         default_fps=16,
-        default_num_frames=81,
+        default_num_frames=49,
+        max_num_frames=49,
         recommended_steps=35,
         guidance_scale=6.0,
         notes="Best entry point for smaller GPUs. Try quantization and CPU offload if memory is tight.",
@@ -46,6 +48,7 @@ MODEL_REGISTRY = {
         default_width=768,
         default_fps=16,
         default_num_frames=97,
+        max_num_frames=None,
         recommended_steps=30,
         guidance_scale=3.0,
         notes="Good balance between speed and quality for repeated ad testing.",
@@ -60,6 +63,7 @@ MODEL_REGISTRY = {
         default_width=960,
         default_fps=16,
         default_num_frames=81,
+        max_num_frames=None,
         recommended_steps=40,
         guidance_scale=5.0,
         notes="Use when you have more VRAM and want better institutional pieces.",
